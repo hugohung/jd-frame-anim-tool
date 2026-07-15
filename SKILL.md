@@ -5,7 +5,7 @@ description: |
   支持 APNG/GIF 压缩功能。触发词：序列帧、帧动画、apng、gif、拆图、压缩动画。
 agent_created: true
 author: honghaoxiang
-version: "2.6.1"
+version: "2.6.2"
 disable: false
 ---
 

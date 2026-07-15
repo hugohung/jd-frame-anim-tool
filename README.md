@@ -1,10 +1,10 @@
 # 🎬 序列帧动图工具集
 
-> **WorkBuddy Skill** — 将 PNG 序列帧合成为 APNG/GIF 动图，或将动图拆解为序列帧，支持 APNG/GIF 压缩功能
+> **Agent Skill** — 将 PNG 序列帧合成为 APNG/GIF 动图，或将动图拆解为序列帧，支持 APNG/GIF 压缩功能
 
 [![Version](https://img.shields.io/github/v/release/hugohung/workbuddy-skill-frame-anim-tool?style=flat-square)](https://github.com/hugohung/workbuddy-skill-frame-anim-tool/releases)
 [![License](https://img.shields.io/github/license/hugohung/workbuddy-skill-frame-anim-tool?style=flat-square)](LICENSE)
-[![WorkBuddy](https://img.shields.io/badge/WorkBuddy-skill-orange.svg?style=flat-square)](https://www.codebuddy.cn)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-orange.svg?style=flat-square)](#)
 [![Python](https://img.shields.io/badge/Python-3.13+-blue?style=flat-square)](https://www.python.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-22+-green?style=flat-square)](https://nodejs.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/hugohung/workbuddy-skill-frame-anim-tool?style=flat-square)](https://github.com/hugohung/workbuddy-skill-frame-anim-tool/stargazers)
@@ -63,7 +63,7 @@ brew install gifsicle
 
 ## 📖 使用方式
 
-在 WorkBuddy 对话中直接说：
+在支持 Skill 的 Agent 对话中直接说：
 
 ### 功能一：序列帧合成动图
 
@@ -206,12 +206,12 @@ python3 ~/.workbuddy/skills/frame-anim-tool/scripts/compress.py \
 
 ## 📦 安装方式
 
-### 方式一：WorkBuddy 用户
+### 方式一：Agent 用户
 
 1. 下载 [最新 Release zip](https://github.com/hugohung/workbuddy-skill-frame-anim-tool/releases/latest)
-2. 在 WorkBuddy **技能管理** → **上传技能**，选择 zip 文件
+2. 在 Agent 客户端的 **Skill 管理** → **上传技能**，选择 zip 文件
 3. 安装依赖（见上方"前置要求"）
-4. 重启 WorkBuddy 即可使用
+4. 重启当前 Agent 客户端 即可使用
 
 ### 方式二：从源码安装
 
@@ -219,7 +219,7 @@ python3 ~/.workbuddy/skills/frame-anim-tool/scripts/compress.py \
 git clone https://github.com/hugohung/workbuddy-skill-frame-anim-tool.git ~/.workbuddy/skills/frame-anim-tool
 ```
 
-安装依赖后重启 WorkBuddy 即可。
+安装依赖后重启当前 Agent 客户端 即可。
 
 ---
 
@@ -273,7 +273,7 @@ git clone https://github.com/hugohung/workbuddy-skill-frame-anim-tool.git ~/.wor
 ### 2. GIF 压缩后颜色失真严重？
 建议优先选择 128 色压缩，32 色仅适用于色彩较少的动图
 
-### 3. WorkBuddy 上传技能失败？
+### 3. Agent 客户端导入 Skill 失败？
 确认下载的是最新 Release 的 zip 包，未自行修改包内文件结构
 
 ### 4. 预览页面无法打开？
@@ -302,7 +302,7 @@ lsof -ti:8767 2>/dev/null | xargs kill -9 2>/dev/null
 **honghaoxiang**
 
 - GitHub: [@hugohung](https://github.com/hugohung)
-- WorkBuddy: [codebuddy.cn](https://www.codebuddy.cn)
+- 适用环境：支持 Skill 的 Agent 客户端
 
 ---
 
